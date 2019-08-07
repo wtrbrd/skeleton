@@ -92,7 +92,7 @@ class Language(models.Model):
 
 
     def __str_(self):
-        """String for representing the Model object"""
+        """String for representing the Model object (in Admin site etc)"""
         return self.name
 
 
